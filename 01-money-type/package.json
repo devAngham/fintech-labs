@@ -1,0 +1,17 @@
+{
+  "name": "money-type",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reference implementation of an immutable Money value object for financial systems.",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
